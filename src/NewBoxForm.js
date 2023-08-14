@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const NewBoxForm = ({ addBox }) => {
   const [width, setWidth] = useState('');
   const [height, setHeight] = useState('');
-  const [backgroundColor, setBackgroundColor] = useState('#FFFFFF');
+  const [backgroundColor, setBackgroundColor] = useState('');
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -19,7 +19,7 @@ const NewBoxForm = ({ addBox }) => {
 
       setWidth('');
       setHeight('');
-      setBackgroundColor('#FFFFFF');
+      setBackgroundColor('');
     }
   };
 

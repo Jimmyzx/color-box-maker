@@ -5,7 +5,8 @@ const Box = ({ width, height, backgroundColor, removeBox }) => {
   const boxStyle = {
     width: `${width}px`,
     height: `${height}px`,
-    backgroundColor,
+    backgroundColor: `${backgroundColor}`,
+    removeBox,
   };
 
   return (
